@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My name is Anna Tikhonova. I am from Russia and spent some time studying in the UK.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I've got an MSc-equivalet degree in Applied Math from [Moscow Engineering Physics Institute](http://www.mephi.ru/eng). Also, I am due to recieve my Masters in Computer Science from [University of Hertfordshire](http://www.herts.ac.uk).
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Please feel free to [email](mailto:{{ site.email }}) me a question. Note that a trivial substitution applies to the email address.
