@@ -4,6 +4,33 @@ layout: default
 
 <div class="home">
 
-    TO DO (da-boo-dee da-boo-dai).
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <p class="post-meta">{{ post.date | date_to_long_string }}</p>
+
+        {{ post.excerpt }}
+
+      </li>
+    {% endfor %}
+  </ul>
+
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Previous</a>
+    {% else %}
+      <span>&larr; Previous</span>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &rarr;</a>
+    {% else %}
+      <span>Next &rarr;</span>
+    {% endif %}
+  </div>
+  {% endif %}
 
 </div>

@@ -117,6 +117,10 @@
     padding: $spacing-unit 0;
 }
 
+.page-content .has-jax {
+    font: inherit; font-size: 100%; background: inherit; border: inherit;
+}
+
 .page-heading {
     font-size: 20px;
 }
@@ -126,7 +130,8 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-top: $spacing-unit;
+        margin-bottom: $spacing-unit * 2;
     }
 }
 
@@ -184,5 +189,15 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+
+.archive-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
     }
 }

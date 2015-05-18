@@ -1,0 +1,53 @@
+---
+layout: page
+title: Archive
+permalink: /archive/
+---
+
+        <ol class="post-list"> <!-- Year list -->
+  {% for post in site.posts %}
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% capture month %}{{ post.date | date: '%B' }}{% endcapture %}
+    
+    {% unless post.next %}
+        <li> <!-- Year list -->
+        <h3>{{ year }}</h3>
+            <ol class="archive-list"> <!-- Month list for each year -->
+            <li> <!-- Month list for each year -->
+              <h4>{{ month }}</h4>
+                <ul> <!-- Post list for each month -->
+    {% else %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% capture nmonth %}{{ post.next.date | date: '%B' }}{% endcapture %}
+
+      {% if year != nyear %}
+                </ul> <!-- Post list for each month -->
+            </li> <!-- Month list for each year -->
+            </ol> <!-- Month list for each year -->
+        </li> <!-- Year list -->
+        <li> <!-- Year list -->
+        <h3>{{ year }}</h3>
+            <ol class="archive-list"> <!-- Month list for each year -->
+            <li> <!-- Month list for each year -->
+            <h4>{{ month }}</h4>
+                <ul> <!-- Post list for each month -->
+      {% else %}
+        {% if month != nmonth %}
+                </ul> <!-- Post list for each month -->
+            </li> <!-- Month list for each year -->
+            <li> <!-- Month list for each year -->
+              <h4>{{ month }}</h4>
+                <ul> <!-- Post list for each month -->
+        {% endif %}
+      {% endif %}
+
+    {% endunless %}
+
+                <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+
+  {% endfor %}
+                </ul> <!-- Post list for each month -->
+             </li> <!-- Month list for each year -->
+            </ol> <!-- Month list for each year -->
+        </li> <!-- Year list -->
+        </ol> <!-- Year list -->

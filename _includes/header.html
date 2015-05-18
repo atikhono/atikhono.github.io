@@ -2,7 +2,13 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">←</a>
+    <svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol id="icon-home" viewBox="0 0 1024 1024">
+    <title>home</title>
+    <path fill="#424242" d="M1024 590.444l-512-397.426-512 397.428v-162.038l512-397.426 512 397.428zM896 576v384h-256v-256h-256v256h-256v-384l384-288z"></path>
+    </svg>
+
+    <a title="Home" class="site-title" href="{{ site.baseurl }}/"><svg class="icon icon-home" width=18 height=15><use xlink:href="#icon-home"></use></svg></a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
