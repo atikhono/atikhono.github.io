@@ -1,12 +1,19 @@
 ---
 layout: post
-title:  "Yandex School of Data Analysis Part 1. Calculus"
+title:  "Yandex School of Data Analysis 2015"
 date:   2015-05-15 14:56:34
 external: [latex]
 ---
 
-This is part 1.
-I'm using <a href="http://maxima.sourceforge.net">Maxima</a> 5.34.1 and Python2 to check myself.
+For the first time I've heard about the [Yandex School of Data Analysis](http://yandexdataschool.com/about) in the beginning of my undergraduate studies at MEPhI. Actually, the School was founded in 2007, the year I started at MEPhI, and later I felt like it gained good reputation among highly-motivated students in no time. The School kind of targeted future [Yandex](http://yandex.ru) employees, but I had no intention to work at Yandex at that time so I never even thought of applying there. However, from time to time I saw some of my brightest fellow classmates struggle with some entrance tests from the School.
+
+Recently a friend reminded me that the application for the year 2015 has been open, and he got me to apply. The application deadline was in two weeks or so, but I was mostly interested in the tests they offer than in preparing the actual application.
+<!--more-->
+The admission to the School happens in three stages. Firstly, stage applicants fill out a registration form and provide information on their background and motivation to enter the School. After having filled the form, applicants are offered ten little problems to sanity-check their abilities in basic math and programming. Secondly, depending on the sanity test results, the School invites successful applicants to take a written exam at a Yandex office (or another location provided by the School). Thirdly, those who were selected by the results of the exam have an interview with the professors of the School. Lastly, those who succeeded in the interview are invited to join the School.
+
+At some point before it was too late, I found out that the School offers [a brilliant program](http://yandexdataschool.com/edu-process) at the Data Analysis department and submitted the answers to my sanity test. I would like to share the problems from the test because as far as I know they are not published officially. For each problem I give the answer I submitted and explain how I got it.
+
+I don't like long posts so I divided the test into four parts: calculus, linear algebra, combinatorics and probability, and programming. This is part 1 -- calculus. I'm using [Maxima](http://maxima.sourceforge.net) 5.34.1 to check myself.
 
 ####__A. Limit of a sequence__
 Find

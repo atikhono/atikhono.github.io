@@ -12,7 +12,7 @@ There are also some general requirements for both algorithms:
 * Memory limit 64Mb
 * Input: stdin or file input.txt
 * Output: stdout or file output.txt
-
+<!--more-->
 
 ####__J. Palindrome__
 

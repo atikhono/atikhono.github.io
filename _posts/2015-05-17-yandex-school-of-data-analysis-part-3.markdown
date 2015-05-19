@@ -6,6 +6,7 @@ external: [latex]
 ---
 
 This is part 3.
+<!--more-->
 
 ####__F. Permutations__
 Find the total number of inversions in the permutation \( X \), where

@@ -11,7 +11,7 @@ layout: default
         <p class="post-meta">{{ post.date | date_to_long_string }}</p>
 
         {{ post.excerpt }}
-
+        <a href="{{ post.url | prepend: site.baseurl }}">more &raquo</a>
       </li>
     {% endfor %}
   </ul>

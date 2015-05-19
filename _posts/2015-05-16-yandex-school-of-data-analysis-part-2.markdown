@@ -6,6 +6,7 @@ external: [latex]
 ---
 
 This is part 2.
+<!--more-->
 
 ####__D. Eigenvector__
 Find an eigenvector of the matrix A
