@@ -5,7 +5,8 @@ date:   2015-05-16 12:45:01
 external: [latex]
 ---
 
-This is part 2.
+In this post I continue to share the answers to the Yandex School of Data Analysis 2015 sanity test. I worked through the first set of problems in my <a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title }}">previous post</a>. In this post I am looking at the linear algebra problems offered in the test. For each problem I give the answer I submitted and explain how I got it. I'm using [Maxima](http://maxima.sourceforge.net) 5.34.1 to check myself.
+
 <!--more-->
 
 ####__D. Eigenvector__

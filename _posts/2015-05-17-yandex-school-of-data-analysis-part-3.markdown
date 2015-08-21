@@ -5,7 +5,8 @@ date:   2015-05-17 18:30:04
 external: [latex]
 ---
 
-This is part 3.
+In my <a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title }}">previous post</a> I looked at the linear algebra part of the Yandex School of Data Analysis 2015 sanity test. The whole test consists of ten little problems to check abilities in basic math and programming. School applicants must submit the answers to the sanity test after they have filled the registration form. Depending on the results of the test, the School invites the successful applicants to take part in the entrance exam. This post is dedicated to the combinatory and probability problems in the 2015's test. For each problem I give the answer I submitted and explain how I got it. Also I provide some Python code I wrote to check myself.
+
 <!--more-->
 
 ####__F. Permutations__

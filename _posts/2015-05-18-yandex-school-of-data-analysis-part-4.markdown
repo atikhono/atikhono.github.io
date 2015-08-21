@@ -5,13 +5,15 @@ date:   2015-05-18 21:02:54
 external: [latex]
 ---
 
-This is part 4. I'm using Python2.
-There are also some general requirements for both algorithms:
+This is the last post where I share the problems and answers to the Yandex School of Data Analysis 2015 sanity test. In this post I work through the programming problems. All the algorithms must satisfy the following requirements:
 
-* Time limit 1 second
-* Memory limit 64Mb
-* Input: stdin or file input.txt
-* Output: stdout or file output.txt
+* 1 second time limit,
+* 64Mb memory limit,
+* Input via stdin or input.txt file,
+* Output via stdout or output.txt file.
+
+For each problem I provide the code I submitted. I wrote them in Python 2.
+
 <!--more-->
 
 ####__J. Palindrome__
