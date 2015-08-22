@@ -1,5 +1,6 @@
 ---
 layout: default
+external: [latex]
 ---
 
 <div class="home">
@@ -10,8 +11,12 @@ layout: default
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <p class="post-meta">{{ post.date | date_to_long_string }}</p>
 
-        {{ post.excerpt }}
-        <a href="{{ post.url | prepend: site.baseurl }}">more &raquo</a>
+        {% if post.external contains 'noexcerpt' %}
+          {{ post.content }}
+        {% else %}
+          {{ post.excerpt }}
+          <a href="{{ post.url | prepend: site.baseurl }}">Read more &raquo</a>
+        {% endif %}
       </li>
     {% endfor %}
   </ul>
