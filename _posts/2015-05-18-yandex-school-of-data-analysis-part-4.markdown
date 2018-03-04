@@ -2,7 +2,6 @@
 layout: post
 title:  "Yandex School of Data Analysis Part 4. Programming"
 date:   2015-05-18 21:02:54
-external: [latex]
 ---
 
 This is the last post where I share the problems and answers to the Yandex School of Data Analysis 2015 sanity test. In this post I work through the programming problems. All the algorithms must satisfy the following requirements:
